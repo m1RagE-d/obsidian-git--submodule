@@ -24,6 +24,7 @@
     },
     "include": [
         "**/*.ts",
+        "eslint.config.mjs",
         "**/*.svelte"
     ]
 }
