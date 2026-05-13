@@ -1,6 +1,32 @@
-# Obsidian Git Plugin
+# Git Submodule for Obsidian
 
-A powerful community plugin for [Obsidian.md](https://obsidian.md) that brings Git integration right into your vault. Automatically commit, pull, push, and see your changes — all within Obsidian.
+This is a beginner-made, Codex-assisted fork of the excellent [Obsidian Git](https://github.com/Vinzent03/obsidian-git) plugin. I made it while learning, so please treat it as an experimental fork rather than a polished official plugin.
+
+The goal of this fork is simple: keep the familiar Obsidian Git workflow, but add a more practical UI for vaults that use Git submodules. It also adds a compact Git graph view for browsing commit history in a style similar to VS Code.
+
+## What This Fork Adds
+
+### Submodule Source Control
+
+The new Submodules view works like a small multi-repository source control panel. Each submodule can be expanded and managed separately:
+
+-   View branch, upstream, current commit, clean/dirty state, and ahead/behind counts.
+-   Stage or unstage individual files inside a submodule.
+-   Stage all, unstage all, or discard working tree changes for a submodule.
+-   Inspect file diffs directly from the submodule panel.
+-   Commit changes inside a submodule with its own commit message.
+-   Pull or push an individual submodule.
+-   Add, initialize, update, sync, deinitialize, or remove submodules from the UI.
+
+Submodule features require the desktop version of Obsidian because they use the native Git binary.
+
+### Git Graph View
+
+This fork also adds a Git Graph view that visualizes commits, branches, merges, refs, authors, and dates. It is meant to be a lightweight graph similar in spirit to the Git graph experience in VS Code.
+
+Open it from the command palette with `Open Git graph view`, or from the Source Control view toolbar.
+
+## Original Plugin
 
 ## 📚 Documentation
 
